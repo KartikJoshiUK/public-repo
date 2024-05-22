@@ -27,6 +27,10 @@ function App() {
           </div>
         }
       />
+      <div>
+        <p>count: {count}</p>
+        <button onClick={() => setCount(count + 1)}>increment</button>
+      </div>
     </Routes>
   );
 }
