@@ -24,13 +24,13 @@ function App() {
           <div>
             <h1>About</h1>
             <Link to={"/"}>home</Link>
+            <div>
+              <p>count: {count}</p>
+              <button onClick={() => setCount(count + 1)}>increment</button>
+            </div>
           </div>
         }
       />
-      <div>
-        <p>count: {count}</p>
-        <button onClick={() => setCount(count + 1)}>increment</button>
-      </div>
     </Routes>
   );
 }
